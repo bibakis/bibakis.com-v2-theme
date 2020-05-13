@@ -1,3 +1,4 @@
+/* FONTS */
 /* open-sans-300 - latin */
 @font-face {
   font-family: 'Open Sans';
@@ -47,4 +48,50 @@
   src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'),
        url('../fonts/open-sans-v17-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/open-sans-v17-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Basic stuff */
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.8em;
+}
+
+
+/* MAIN BAR */
+#main_bar {
+  background-color: #166A9F;
+  color: #ffffff;
+  height: 60px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  z-index: 2;
+}
+
+#main_bar_logo a, #main_bar_logo a:hover {
+  display: block;
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 300;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+#main_bar_logo a span#logo_small {
+  font-size: 18px;
+}
+
+#main_bar_menu_toggle a {
+  display: block;
+  float: right;
+  background-color: #ffffff;
+  color: #166A9F;
+  font-size: 18px;
+  margin: -2.5em 0 0 0;
+  border-radius: 4px;
+  padding: 0 1em 0 2.6em;
+  background-image: url('../images/menu.svg');
+  background-repeat: no-repeat;
+  background-position: 12px 8px;
 }
