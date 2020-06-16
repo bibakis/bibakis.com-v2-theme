@@ -53,7 +53,7 @@
 /* Basic stuff */
 body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.8em;
 }
 
@@ -75,7 +75,7 @@ body {
   color: #ffffff;
   font-weight: 300;
   text-decoration: none;
-  padding-top: 10px;
+  padding-top: 12px;
 }
 
 #main_bar_logo a span#logo_small {
@@ -90,10 +90,14 @@ body {
   font-size: 18px;
   margin: -2.5em 0 0 0;
   border-radius: 4px;
-  padding: 0 1em 0 2.6em;
+  padding: 3px 1em 3px 2.6em;
   background-image: url('../images/menu.svg');
   background-repeat: no-repeat;
-  background-position: 12px 8px;
+  background-position: 12px 9px;
+}
+
+#main_bar_menu_toggle a:hover {
+	text-decoration: none;
 }
 
 #main_menu_desktop {
@@ -101,18 +105,24 @@ body {
 }
 
 #mobile_menu_container {
-	display: none;
 	width: 100%;
-	height: 100vh;
+	height: 0%;
 	background: linear-gradient(to bottom, #9f1689 0%,#166a9f 80%);
 	z-index: 1;
 	text-align: right;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow-y: hidden;
+  transition: 0.5s;
 }
 
 #mobile_menu {
-	position: fixed;
-	bottom: 100px;
-	right: 0px;
+	position: relative;
+	top: 0;
+	width: 100%;
+	text-align: right;
+	margin-top: 40px;
 }
 
 #mobile_menu a {
@@ -127,8 +137,41 @@ body {
 	text-decoration: none;
 }
 
+#mobile_menu_close {
+	position: relative;
+	top: 0px;
+	right: 40px;
+}
+
+
+/* VARIOUS */
+.container.content {
+	margin-top: 3em;
+}
+
+.post {
+	border-bottom: 1px solid #DFE9EC;
+	margin-bottom: 3em;
+	padding-bottom: 3em;
+}
+
+.post h2 {
+	font-size: 2em;
+	margin-bottom: 1em;
+	color: #166A9F;
+}
+
+
 /* desktop */
 @media (min-width: 992px) {
+	body {
+	  font-size: 22px;
+	}
+
+	#main_bar_logo a, #main_bar_logo a:hover {
+		padding-top: 10px;
+	}
+
 	#main_bar {
 	  background-color: #166A9F;
 	  color: #ffffff;
@@ -148,7 +191,7 @@ body {
 	  float: right;
 	  color: #ffffff;
 	  font-size: 18px;
-	  margin: -2.5em 0 0 0;
+	  margin: -2.6em 0 0 0;
 	}
 
 	#main_menu_desktop a {
@@ -157,18 +200,8 @@ body {
 		font-weight: 300;
 		font-size: 1.2em;
 	}
-}
 
-/* VARIOUS */
-.container.content {
-	margin-top: 6em;
-}
-
-.post {
-	margin-bottom: 6em;
-}
-
-.post h2 {
-	font-size: 2em;
-	margin-bottom: 1em;
+	.container.content {
+		margin-top: 6em;
+	}
 }
