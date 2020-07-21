@@ -1,0 +1,20 @@
+/*
+Theme Name: Bibakis.com v2
+Author: Vangelis Bibakis
+Description: The theme that powers Bibakis.com v2
+Author URI: https://bibakis.com
+Theme URI: https://bibakis.com/projects/
+Version: 1.0.0
+License: MIT
+Tags: bootstrap, responsive
+*/
+
+.blog-nav li {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+}
+.blog-nav li a {
+  color: #fff;
+}
