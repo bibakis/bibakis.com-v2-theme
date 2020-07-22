@@ -175,9 +175,13 @@ body {
 	color: #333;
 }
 
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
+  margin: 2em 0 1em 0;
+}
+
 .post h2.blog-post-title {
 	font-size: 2em;
-	margin-bottom:0.5em;
+  margin: 0 0 0.5em 0;
 	color: #166A9F;
 }
 
@@ -185,6 +189,8 @@ body {
   color: #166A9F;
   text-decoration: none;
 }
+
+
 
 /* desktop */
 @media (min-width: 992px) {
