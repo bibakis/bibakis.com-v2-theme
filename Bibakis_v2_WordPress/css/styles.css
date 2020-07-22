@@ -179,13 +179,13 @@ body {
   margin: 2em 0 1em 0;
 }
 
-.post h2.blog-post-title {
+h2.blog-post-title {
 	font-size: 2em;
   margin: 0 0 0.5em 0;
 	color: #166A9F;
 }
 
-.post h2.blog-post-title a {
+h2.blog-post-title a {
   color: #166A9F;
   text-decoration: none;
 }
