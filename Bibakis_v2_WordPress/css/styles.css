@@ -61,6 +61,7 @@ body {
 /* MAIN BAR */
 #main_bar {
   background-color: #166A9F;
+  background: linear-gradient(to right, #158ad3 0%,#166a9f 100%);
   color: #ffffff;
   height: 60px;
   position: fixed;
@@ -163,6 +164,10 @@ body {
 	padding-bottom: 3em;
 }
 
+.blog-post-title-header {
+
+}
+
 .blog-post-meta {
 	font-size: 0.7em;
 	border-bottom: 1px solid #DFE9EC;
@@ -190,7 +195,32 @@ h2.blog-post-title a {
   text-decoration: none;
 }
 
+.page-title-container {
+  background-color: #166A9F;
+  background: linear-gradient(to right, #158ad3 0%,#166a9f 100%);
+  min-height: 40rem;
+}
 
+h2.page-title {
+  margin-top: 16rem;
+  font-weight: 300;
+  font-size: 3em;
+  color: #ffffff;
+}
+
+.post-title-container {
+  background-color: #166A9F;
+  background: linear-gradient(to right, #158ad3 0%,#166a9f 100%);
+  min-height: 40rem;
+  color: #ffffff;
+}
+
+h2.post-title {
+  margin-top: 14rem;
+  font-weight: 300;
+  font-size: 3em;
+  color: #ffffff;
+}
 
 /* desktop */
 @media (min-width: 992px) {
