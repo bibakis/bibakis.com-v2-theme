@@ -11,7 +11,7 @@ if (is_single())
 	<div class="post-title-container">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12">';
+				<div class="col-sm-12">
 						<h2 class="post-title"><?php echo get_the_title();?></h2>
 						<p><?php echo the_date();?></p>
 					</div>
