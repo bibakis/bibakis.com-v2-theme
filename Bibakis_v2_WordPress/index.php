@@ -24,7 +24,6 @@ if (is_single())
 			<div class="col-sm-12">
 				<div class="the_post">
 					<?php echo the_content();?>
-
 				</div><!-- /.the_post -->
 			</div> <!-- /.col-sm-12 -->
 		</div> <!-- /.row -->

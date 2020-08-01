@@ -232,6 +232,15 @@ h2.post-title {
   color: #ffffff;
 }
 
+a.read_more_button {
+    background-color: #166a9f;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
 /* desktop */
 @media (min-width: 992px) {
 	body {
