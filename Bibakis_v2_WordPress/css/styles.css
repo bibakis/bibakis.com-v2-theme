@@ -245,6 +245,7 @@ a.read_more_button {
   background-color: #eeeeee;
   border-top: 1px solid #dddddd;
   padding: 2rem 0;
+  margin-bottom: 3.5rem;
 }
 
 .footer_social_icons {
@@ -309,4 +310,8 @@ a.read_more_button {
 	.container.content {
 		margin-top: 6em;
 	}
+
+  .footer_container {
+    margin-bottom: 0rem;
+  }
 }
