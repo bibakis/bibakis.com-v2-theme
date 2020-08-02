@@ -241,6 +241,22 @@ a.read_more_button {
     text-decoration: none;
 }
 
+.footer_container {
+  background-color: #eeeeee;
+  border-top: 1px solid #dddddd;
+  padding: 2rem 0;
+}
+
+.footer_social_icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_social_icons a {
+  margin: 0 1rem;
+}
+
 /* desktop */
 @media (min-width: 992px) {
 	body {
